@@ -628,12 +628,14 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   margin: 0px;
   padding: 63px 24px;
+
   transform: translateY(100%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-content .list-item:hover .product-description {
+.content-link:hover .product-description {
   transform: translateY(0);
 }
-.list-content .list-item:focus .product-description {
+
+.content-link:focus .product-description {
   transform: translateY(0);
 }
